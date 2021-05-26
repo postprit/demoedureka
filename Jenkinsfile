@@ -5,7 +5,7 @@ pipeline {
         stage('Git Clone') {
             steps {
                 echo "checking out the repo from git"
-               // git clone 'https://github.com/postprit/demoedureka.git'
+                git clone 'https://github.com/postprit/demoedureka.git'
             
             }
         }
